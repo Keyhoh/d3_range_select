@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 500px;
+    height: 350px;
+}
+
+svg.main {
+    width: 500px;
+    height: 300px;
+}
+
+svg.sub {
+    width: 500px;
+    height: 50px;
+}
