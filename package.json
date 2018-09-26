@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -o"
+    "start": "http-server -o",
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -12,13 +13,11 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Keyhoh/d3_range_select#readme",
-  "bugs": {
-    "url": "https://github.com/Keyhoh/d3_range_select/issues"
-  },
+  "homepage": "https://Keyhoh.github.io/d3_range_select",
   "keywords": [],
   "description": "",
   "devDependencies": {
+    "gh-pages": "^2.0.0",
     "http-server": "^0.11.1"
   }
 }
