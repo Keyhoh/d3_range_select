@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#index {
+    width: 500px;
+    height: 350px;
+}
+
+svg.main {
+    width: 500px;
+    height: 300px;
+    stroke:black;
+    stroke-width: 1px;
+    fill: none;
+}
+
+svg.sub {
+    width: 500px;
+    height: 75px;
+    stroke: black;
+    stroke-width: 1px;
+    fill: none;
+}
