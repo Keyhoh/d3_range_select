@@ -1,7 +1,6 @@
 {
   "name": "d3_range_select",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,13 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Keyhoh/d3_range_select#readme"
+  "homepage": "https://github.com/Keyhoh/d3_range_select#readme",
+  "bugs": {
+    "url": "https://github.com/Keyhoh/d3_range_select/issues"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
