@@ -13,7 +13,7 @@ const sub = d3.select("#index")
     .classed("sub", true);
 
 // 株価的なデータ　　    最小値, 最大値,                             データ数, 振れ幅
-const data = createData(     0, height, parseInt(width * height / subHeight),     20);
+const data = createData(0, height, parseInt(width * height / subHeight), 20);
 
 // 線形変換関数
 let mainScale = d3.scaleLinear()
@@ -56,7 +56,5 @@ const brushed = () => {
     main.select("path").attr("d", mainLine);
 };
 
-brush.on("brush", () => {
-    brushed();
-});
+brush.on("brush", brushed);
 brushes.call(brush);
